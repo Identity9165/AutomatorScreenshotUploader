@@ -12,7 +12,7 @@ clipboard. I wrote it because ShareX doesn't work on macOS.
 4. Let's say you want Full Screen screenshot, select that.
 5. Save to -> new -> Create a folder that you want to save your screenshots -> Save it as Untitled (or anything)
 6. At the end there's a segment called run shell script, change the variables according to the comments.
-7. Go to OSX Settings -> Keyboard -> Shortcuts Tab -> Select Services from the left and you'll see "AutomatorFTPUpload" service. Give it a shortcut and it's done.
+7. Go to OSX Settings -> Keyboard -> Shortcuts Tab -> Select Services from the left and at the right bottom hopefully you'll see "AutomatorFTPUpload" service. Enable it, give it a shortcut and it's done.
 
 ## LICENSE
 
