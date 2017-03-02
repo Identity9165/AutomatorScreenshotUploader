@@ -1,6 +1,6 @@
 # Automator Screenshot FTP Uploader v0.1a
 
-An macOS automator service that integrates itself to keyboard shortcuts, uploads your screenshots to your FTP and copies the URL to your
+A macOS automator service that integrates itself to keyboard shortcuts, uploads your screenshots to your FTP and copies the URL to your
 clipboard. I wrote it because ShareX doesn't work on macOS.
 
 ## USAGE
