@@ -763,8 +763,8 @@
 HOST='ftp.changeme.com' ## CHANGE FTP URL
 USER='changeme'     ## CHANGE ME
 PASSWD='changeme123'   ## CHANGE ME
-REMOTEFILE="/public_html/${@##*/}" ## CHANGE IT TO YOUR document root, it can /httpdocs/ or just "/", ask your sysadmin
-URL="https://domain.com/${@##*/}" ## CHANGE IT TO YOUR DOMAIN eg. https://github.com/ if you are going to upload it to a folder, write the folder name before ${@##*/} part like "https://domain.com/folder/${@##*/}"
+REMOTEFILE="/changeme/${@##*/}" ## CHANGE IT TO YOUR document root, it can be /httpdocs/screenshotupload folder or just "/", if you have no idea ask your sysadmin
+URL="https://changeme.com/${@##*/}" ## CHANGE IT TO YOUR DOMAIN eg. https://github.com/ if you are going to upload it to a folder, write the folder name before ${@##*/} part like "https://domain.com/folder/${@##*/}"
 
 LOCALFILE=$@
 
@@ -889,7 +889,7 @@ echo $URL | pbcopy</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>529.000000:723.000000</string>
+				<string>529.000000:588.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -899,14 +899,14 @@ echo $URL | pbcopy</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>A595F793-CA52-4877-8599-3988EE4C4E5B</key>
+		<key>4E96311B-7543-437F-8B5B-115F91C0C021</key>
 		<dict>
 			<key>from</key>
 			<string>060B3DA2-AC72-4EE0-A9A6-707865718880 - 060B3DA2-AC72-4EE0-A9A6-707865718880</string>
 			<key>to</key>
 			<string>D66F2C7D-33A5-43C7-AB3A-EE6BDCEB5F57 - D66F2C7D-33A5-43C7-AB3A-EE6BDCEB5F57</string>
 		</dict>
-		<key>F3F53171-3E98-4C2B-9595-74F7E0F2CBF3</key>
+		<key>B7D28D75-A12A-4A21-A195-0129F908279C</key>
 		<dict>
 			<key>from</key>
 			<string>D66F2C7D-33A5-43C7-AB3A-EE6BDCEB5F57 - D66F2C7D-33A5-43C7-AB3A-EE6BDCEB5F57</string>
