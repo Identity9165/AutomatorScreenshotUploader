@@ -17,4 +17,4 @@ clipboard. I wrote it because ShareX doesn't work on macOS.
 
 ## LICENSE
 
-This program is available under the [WTFPL](http://www.wtfpl.net/) license.
+This software is available under the [WTFPL](http://www.wtfpl.net/) license.
